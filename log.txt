@@ -1,0 +1,439 @@
+nohup: ignoring input
+2024-11-19 14:41:25.840822: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-11-19 14:41:26.003741: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-11-19 14:41:26.938102: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2024-11-19 14:41:26.938268: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2024-11-19 14:41:26.938276: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+Using device: cuda
+
+[INFO] Translating chunk 2/70
+  - Translating column 'sentenceInfo'
+    > Translated 1000 rows in column 'sentenceInfo'
+  - Translating column 'newsSubcategory'
+    > Translated 1000 rows in column 'newsSubcategory'
+  - Translating column 'newsTitle'
+    > Translated 1000 rows in column 'newsTitle'
+  - Translating column 'newsSubTitle'
+    > Translated 1000 rows in column 'newsSubTitle'
+  - Translating column 'newsContent'
+    > Translated 1000 rows in column 'newsContent'
+
+Sample translations from column 'sentenceInfo':
+['["sensence NO\': 1,\'senceContensant\': The average gasoline price in a national gas station has dropped in 12 weeks since the second of May.', '["Extensence NO: One\'s public market\': \'SentenceCentenceCententent\': :..com\'Presidents of the \'Tennial Reds Red Iron, Park Stone (tenth from left) have been cutting tape on the 27th day to the official installation of the Akeid Market.\'', '["Extensence No\': "A senior member of the Society\'s Royal Society\'s Union: \'Sentence Union\' · Global Voices · Global Voices']
+
+Sample translations from column 'newsSubcategory':
+['Business/ CEO', 'Transgression/ Shop', 'Oh, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no.']
+
+Sample translations from column 'newsTitle':
+['In 12 weeks gasoline is worth the third dollar across the country.', 'The Korean Market, more pleasant and convenient...', 'Kim Kye-han, new director of the Geological Resources Union.']
+
+Sample translations from column 'newsSubTitle':
+['One hundred and forty dollars per l, top-five, nine and a half.', "Cartable 'Desponsible Market' Raised", "I'm sorry, I'm sorry, but I don't think it's a good idea, but it's a good idea."]
+
+Sample translations from column 'newsContent':
+['The average gasoline price in a national gas station has dropped in 12 weeks since the second year of May. According to Opinet, on the second day of the Korean oil project, the average price of gasoline in the country has dropped to $1.28 per week.', "shouldn't be the case................................................................................................................................................................................................   ....                  ..                                          .                                ...", 'The new president of the Korean College of Directors and co-optimists, Kim Gi-jum, was chosen to be the new president of the Royal Society for the Advancement of Science Education and Honor.']
+[INFO] Total translated texts so far: 5000 (Current chunk translated: 5000)
+
+[INFO] Translating chunk 3/70
+  - Translating column 'sentenceInfo'
+    > Translated 1000 rows in column 'sentenceInfo'
+  - Translating column 'newsSubcategory'
+    > Translated 1000 rows in column 'newsSubcategory'
+  - Translating column 'newsTitle'
+    > Translated 1000 rows in column 'newsTitle'
+  - Translating column 'newsSubTitle'
+    > Translated 1000 rows in column 'newsSubTitle'
+  - Translating column 'newsContent'
+    > Translated 1000 rows in column 'newsContent'
+
+Sample translations from column 'sentenceInfo':
+['["ExtensenceNo": 1, \'entenceContent\': "Mnet \'Produce 101\' season2 caught eyebrows": \'SentenceSize\':', '["Extensence No:\'EntenceContensant\': "The members of the \'Ioia\' and Kim Doe\' have been released.', '["Extensence No:\'entenceContenst\':\',\'entenceContent\':\'synthest\' was released via his SNS.\',\'sentenceSize\': \'tim has posted a photograph of his own insensibles in \'28 days.\'']
+
+Sample translations from column 'newsSubcategory':
+["I'm talking about entertainment.", "I'm talking about entertainment.", "I'm talking about entertainment."]
+
+Sample translations from column 'newsTitle':
+['\\ "Is this really PPL?"', 'All eight members have announced the Pantazi girl group "Ithin Girls."', "Kim Hyun-joon, Japan's new song, teas open... start in June."]
+
+Sample translations from column 'newsSubTitle':
+['', '', '']
+
+Sample translations from column 'newsContent':
+["On Facebook'Produce 101 'PPL' season 2 caught the eye. A recent production of production 101 season 2 drew a pack of Boy Groups playing a cosmetic brand.", "All members of the 'Ayo' group are released, and all members of the 'Eytines' team, named 'Eytina' 17-years-old, have recently been released through Vip' and 'Azit'.", "The singer, Kim Hyun, has released a picture of himself on his Instagram on 28 days. He has a microphone with a black hoodie deep in his photo. He is in front of Japan's Shizuoka show on 7 days. Kim has recently launched a new single 'Sizuoka' video, such as the official YouTube channel for Unibercial Music."]
+[INFO] Total translated texts so far: 10000 (Current chunk translated: 5000)
+
+[INFO] Translating chunk 4/70
+  - Translating column 'sentenceInfo'
+    > Translated 1000 rows in column 'sentenceInfo'
+  - Translating column 'newsSubcategory'
+    > Translated 1000 rows in column 'newsSubcategory'
+  - Translating column 'newsTitle'
+    > Translated 1000 rows in column 'newsTitle'
+  - Translating column 'newsSubTitle'
+    > Translated 1000 rows in column 'newsSubTitle'
+  - Translating column 'newsContent'
+    > Translated 1000 rows in column 'newsContent'
+
+Sample translations from column 'sentenceInfo':
+["['Sentence No':'SentenceContintant': One'sentenceContinant': An actor' stands out in a tv new drama 'Gerizion'. 'SentenceSize':", '[\'SentenceNo\': 1,\'sentenceContensant\': \'Mail High Club\' returns to "GoingGone\'.\' \'SentenceSize\': 53}, \'Sentence Union\':', '["Sentence NO\': 1, \'SentenceContenst\': \'WJN\' said goodbye to the radio square. \'SentenceSize\':']
+
+Sample translations from column 'newsSubcategory':
+['Broadcast', 'Music', 'Creativity General']
+
+Sample translations from column 'newsTitle':
+['Park\'s "Girissan" special show [official]', 'Miles High Club, 21st-day regular album release.', 'The space girl Dass Young, Gaga Square and a poor farewell']
+
+Sample translations from column 'newsSubTitle':
+['', '', '']
+
+Sample translations from column 'newsContent':
+['The story of Ching Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing Bing King, Gi Bing Bing Bing Ding Ding Bing Bing Bing Bing Bing Bing Cing Bing Bing, Gi Bing Ding Ding King Ding Cing Bing Bing Bing Cing Bing Ding Ding Ding Ding Ding Ding Ding Ding Ding Ding Ding Ding Ding Ding Ding Ding Ding Ding Ding Ding, Gi Ct, Gi Ding Ding Ding Ding Ding Ding Ding Ding Ding Ding Ding Ding Ding Ding Ding Ding Ding, Gi, Gi, Gi, Gi, Gi Bing Ding Ding Ding Ding Ding Ding Ding Ding Ding Ding Ding Ding Ding Ding Ding Ding Ding Ding Ding Ding Ding Ding Ding King King King Ding Ding, Gi Ding Ding Ding Ding Ding Ding King King King King King Ding Ding King King Ding Ding Ding Ding Ding Ding, Gi Bing Cing, Gi Ding, Gi Ding Ding Ding, Gi Ding King King King King King King King King, and Kim, and Kim, Gi, Gi, and Kim, Gi, Gi, Gi, Gi Ding Ding Cing Cing Cing Cing Cing Cing Cing Cing Cing Cing Cing Cing and Kim, and Kim, Gi Bing Ding Ding Ding,', 'Miles High Club has returned to the Going Gone. The Balthasa Music Carro has announced that the High Club will release its regular album 21 days.', 'A group of space girls (WJSN) said good-bye to Radio Gas Square, who, from February of last year, appeared in the corner of Kigato, KibS Radio FM (Ihaga Square) every Wednesday, listening only for about a year and eight months.']
+[INFO] Total translated texts so far: 15000 (Current chunk translated: 5000)
+
+[INFO] Translating chunk 5/70
+  - Translating column 'sentenceInfo'
+    > Translated 1000 rows in column 'sentenceInfo'
+  - Translating column 'newsSubcategory'
+    > Translated 1000 rows in column 'newsSubcategory'
+  - Translating column 'newsTitle'
+    > Translated 1000 rows in column 'newsTitle'
+  - Translating column 'newsSubTitle'
+    > Translated 1000 rows in column 'newsSubTitle'
+  - Translating column 'newsContent'
+    > Translated 1000 rows in column 'newsContent'
+
+Sample translations from column 'sentenceInfo':
+['["Extensence NO\': 1, \'SentenceContensant\': \'New York has dropped 2 or 3% in one day.\'', '["Sentence No": A football legend that passed last November, and a Porsche vehicle that rode on the last season of European life has its attention focused on auctions.', '["EMA\'s Commission for Disease Control\': "EMA" says it\'s due to issue the next two days\' notice of whether or not the new corona virus infection vaccine developed by Johnson & Johnson (EMA):']
+
+Sample translations from column 'newsSubcategory':
+['U.S.A. Canada', 'EUROPE', 'EUROPE']
+
+Sample translations from column 'newsTitle':
+['[New York Massage]S&P500 has dropped 1.8%...', "There's a Porche 911 auction in Marado... how much will it sell?", 'The European Drug Administration, Jansen (J&J) Corona, decides 11 days of approval or approval of the vaccine.']
+
+Sample translations from column 'newsSubTitle':
+['', '"I think it\'s going to be worth two to three times the original price of $270 million."', '']
+
+Sample translations from column 'newsContent':
+['A total drop in New York City’s 2 to 3% increase in one day, in a major technological balance warning like Apple and Tesla.....3.3.................... the number of days of the year has dropped by 143...........................................................................................................................................................     ......   .    .    ....... ..............         .........', 'During the last season of his life in Europe, Porsche vehicles have been focused on auctions, according to the British auctioneer Bonhams revealed that Porsche 911 carret2 was sold from Paris to Seville during the season 1992-1993.', 'According to the AFP, EMA has been approved and approved by the European Commission on Drug Abuse (EMA) by the European Commission (EMA) on March 11th to issue a proposal for a vaccine that will be approved by the new Koonavirus vaccine developed by J&J (J&J).']
+[INFO] Total translated texts so far: 20000 (Current chunk translated: 5000)
+Partial results saved at /mount/nas/disk02/Data/Health/Mental_Health/BERT/real/translated_data_partial_v.csv (Chunk index: 4)
+
+[INFO] Translating chunk 6/70
+  - Translating column 'sentenceInfo'
+    > Translated 1000 rows in column 'sentenceInfo'
+  - Translating column 'newsSubcategory'
+    > Translated 1000 rows in column 'newsSubcategory'
+  - Translating column 'newsTitle'
+    > Translated 1000 rows in column 'newsTitle'
+  - Translating column 'newsSubTitle'
+    > Translated 1000 rows in column 'newsSubTitle'
+  - Translating column 'newsContent'
+    > Translated 1000 rows in column 'newsContent'
+
+Sample translations from column 'sentenceInfo':
+['["Sentence No:"1, \'SentenceContensant\': "The Russian Foreign Secretary\'s Conference held in Geneva, Switzerland, 21 days under stress in Eastern Europe, and said that the Russians would understand that the dialogue would work if it was answered from the United States.', '["SentenceNo": 1, \'SentenceContensant\': "The British Health Safety Agency" (HSA) identified "Systunes" (PCR), which cannot distinguish between variation and variation in new coronavirus (PCR).', '["Extensence No\': 1\'entenceContenst\': \'2022 Beijing\' opened at the beginning of ten days before the Olympic Olympics.\' \'SentenceSize\': \'and\'sension Union\': \'23\': The World’s Preservation Times already spoke to a group of North Koreans after \'England Warships\': \'Englanders\' · Global Voices · Global Voices']
+
+Sample translations from column 'newsSubcategory':
+['EUROPE', 'EUROPE', 'northeast-northea']
+
+Sample translations from column 'newsTitle':
+['I\'m going to close the Mirror Conference... and I\'m going to have to answer to my husband\'s office."', 'Check 53 steals of stealth omikrons... the target of the investigation.', "We're starting with Olympic entry into the Olympic Village through the spread of Corona19, and we're gonna have a close-up confidence."]
+
+Sample translations from column 'newsSubTitle':
+["Each press conference... after an hour and a half of talks, we're going to do our interviews first.", "Found recent samples such as South Africa/ Howell/Canada... already spreading extensively with expert \\'97']...", 'In the middle of the 27th official entrance, start the first entry to assist the player, etc.']
+
+Sample translations from column 'newsContent':
+["During the 21st day of the U.S. and Russian Foreign Secretary's Conference in Geneva, the Russian Secretary of Foreign Affairs said that Russia would understand that there would be a good conversation if answered from the United States.", 'According to the World Health and Safety Organization (WHO), a new strain has been detected in the United Kingdom of Canada since the new Cyrona Virus syndrome (PCR) has been detected for a study of the Stells Omikron variation, which cannot distinguish between variations.', 'During the opening ten days of the Olympic Winter Games in Beijing, the first and most officials entered the Olympic Games. On the 23rd, the International Times of China reported that representatives from more than 20 countries were already ready to move to the championships and welcome their post-elections. Some delegates from the U.S.S.S.S.']
+[INFO] Total translated texts so far: 25000 (Current chunk translated: 5000)
+
+[INFO] Translating chunk 7/70
+  - Translating column 'sentenceInfo'
+    > Translated 1000 rows in column 'sentenceInfo'
+  - Translating column 'newsSubcategory'
+    > Translated 1000 rows in column 'newsSubcategory'
+  - Translating column 'newsTitle'
+    > Translated 1000 rows in column 'newsTitle'
+  - Translating column 'newsSubTitle'
+    > Translated 1000 rows in column 'newsSubTitle'
+  - Translating column 'newsContent'
+    > Translated 1000 rows in column 'newsContent'
+
+Sample translations from column 'sentenceInfo':
+["There's a word left by a broadcaster of '\\\\~~~MBC at auction.'", '["Extensence No\': "A presidential commission has announced the acquisition of a new generation of self-responsibility technologies", which can raise five self-responsive companies. :\'sensenceSize\':', '"The world\'s largest OT (on-line video service) Netflix has been locked";\'senceSize:']
+
+Sample translations from column 'newsSubcategory':
+['IT/ Science, Hels > Communication/media', 'IT/ Science, Hels > Science', 'IT/ Science, Hels > Communication/media']
+
+Sample translations from column 'newsTitle':
+['This is the NTA business that charges fans... to NFT.', 'The technology is the economy and the security is the security.....the leader, the super-disclosure technology.', '\\ "Turkeys"\\ "Nelf-Clock" for $5,000......community sharing?']
+
+Sample translations from column 'newsSubTitle':
+['', '', '']
+
+Sample translations from column 'newsContent':
+["A word left by a broadcaster from MBC's full-time film called NFT (NFT) is the leading character on the 'Efficient Challenge' which appeared in March 2010.", "The president's sub-strate committee has announced a strategy for developing five sub-strate self-strategics, a strategy that will allow the world's nations to self-strate their technology, especially in the field of technology, which is the prospect of creating a policy to the head of the eye and the head of the eye.", 'There is a recent response to the fall of the stock in 11 years, to the negative evaluation of the revenues of the state.']
+[INFO] Total translated texts so far: 30000 (Current chunk translated: 5000)
+
+[INFO] Translating chunk 8/70
+  - Translating column 'sentenceInfo'
+    > Translated 1000 rows in column 'sentenceInfo'
+  - Translating column 'newsSubcategory'
+    > Translated 1000 rows in column 'newsSubcategory'
+  - Translating column 'newsTitle'
+    > Translated 1000 rows in column 'newsTitle'
+  - Translating column 'newsSubTitle'
+    > Translated 1000 rows in column 'newsSubTitle'
+  - Translating column 'newsContent'
+    > Translated 1000 rows in column 'newsContent'
+
+Sample translations from column 'sentenceInfo':
+['["Extensence No\': 1\'entenceContensant\': \'ADTcaps\' analyzed and announced a security checkout during the summer season.\',\'sensenceSize\':', '["Extensence NO\': "\'A factory control system Idmin\'s code 1234.\' ICS"]', '["Extensence No\': A future creation science department has to go back 25 percent of its choice discount to the existing car, but the automatic conversion is a difficult prospect.", "sensenceSize":']
+
+Sample translations from column 'newsSubcategory':
+['Security', 'Security', 'Communication']
+
+Sample translations from column 'newsTitle':
+['Before you leave for the trip, just check this... A.T. Cap, offer me a vacation security checklist.', 'ICS, user authorisation.', 'Twenty-five percent choice discount, back-to-back application response.']
+
+Sample translations from column 'newsSubTitle':
+['', '', '']
+
+Sample translations from column 'newsContent':
+["According to the results of last year's visit, the A.D.C.C.C.C.A.C. saw the most frequent break-in between June and August, a total of 17% of Saturday's break-insurrections occurred between 1: 00 p.m. and about 34% of all crimes occurred between 6 p.m., between 6 p.m. and 6 p.m.", "A company control system ID code 1234. 'ICS' and other industrial control systems installed in major industrial facilities have been exposed to cyber-force non-responsibility.", 'The future creation science department has decided to apply the 25 percent chooser discount back to the existing car, but the automatic conversion method is difficult.']
+[INFO] Total translated texts so far: 35000 (Current chunk translated: 5000)
+
+[INFO] Translating chunk 9/70
+  - Translating column 'sentenceInfo'
+    > Translated 1000 rows in column 'sentenceInfo'
+  - Translating column 'newsSubcategory'
+    > Translated 1000 rows in column 'newsSubcategory'
+  - Translating column 'newsTitle'
+    > Translated 1000 rows in column 'newsTitle'
+  - Translating column 'newsSubTitle'
+    > Translated 1000 rows in column 'newsSubTitle'
+  - Translating column 'newsContent'
+    > Translated 1000 rows in column 'newsContent'
+
+Sample translations from column 'sentenceInfo':
+['["Extensence No: "The Lady of Harry Potter"], \'SentenceSize\': :16:\'and \'Sentence Potter will be the father of three children in nine years.\'', '["SentenceNo\': "1,\'sentenceContensant\': \'Reumatics of illiois\' biosystritis biosymbolli\' has entered Europe. : \'Sentensize\':', "It's natural to feel a certain sense of insecurity in a modern society that rapidly returns to the diagnosis of compulsive disorder."]
+
+Sample translations from column 'newsSubcategory':
+['Book', 'Health Information', 'Health Information']
+
+Sample translations from column 'newsTitle':
+["In nine years, Harry Potter's new book will be the father of three Porter's children.", 'Biosymiler, European advance.', '\\" Abnormal impulse, if you\'re bored with your life, you should wonder...\\"review of Compulsive Disorders']
+
+Sample translations from column 'newsSubTitle':
+['', "The Norwegian government's successful bid... for European market entry.", '']
+
+Sample translations from column 'newsContent':
+['Harry Potter\'s wife became the father of three children in nine years, and Harry Potter told his brother, the Guardian, that a new series of Harry Potters will appear on July 31th. This series will be a series of plays called "Harry Potter and the Cursed Child" in London\'s West End, and the book "The First Book to Be written in July 30" was written in July for his first book to be published in the United Kingdom\'s "The Greatest Woman" by David Wander.', 'On the 31st day of the month, the European government’s bid for the sale of Bennefal. The European Commission’s first sale of anti-Muslims, including 28 members in Norway, Iceland, Lichtenstein, and other 31 countries.', "It's natural for a modern society to feel a certain amount of anxiety in a fast-running trial of compulsive disorder: it doesn't take much to do anything, it can cause anxiety in minor things; but when it gets really bad, you have to look at your life, and when you get to the point where you wash your hands with blood, you have to be overwhelmed by a compulsive disorder, not by a recurring thought of life, but by the anxiety that happens to you, but because of the fact that you're overwhelmed by your own mind, and in spite of the fact that you have so many of the disorders of your obsessions, you have to suffer the most from these disorders, and then you have to suffer the most anxiety that you have."]
+[INFO] Total translated texts so far: 40000 (Current chunk translated: 5000)
+
+[INFO] Translating chunk 10/70
+  - Translating column 'sentenceInfo'
+    > Translated 1000 rows in column 'sentenceInfo'
+  - Translating column 'newsSubcategory'
+    > Translated 1000 rows in column 'newsSubcategory'
+  - Translating column 'newsTitle'
+    > Translated 1000 rows in column 'newsTitle'
+  - Translating column 'newsSubTitle'
+    > Translated 1000 rows in column 'newsSubTitle'
+  - Translating column 'newsContent'
+    > Translated 1000 rows in column 'newsContent'
+
+Sample translations from column 'sentenceInfo':
+['["Sentence NO\': One\'s entourage:\'sentenceContensant\':\'Postocracy presidents have stressed the lack of experience in tests other than in the last presidential election\'.', '["ExtensenceNo\': 1,\'sentenceContensant\': \'an anti-existent member\': \'14 days\';\'sentenceSize\': 30},\'sensence no\': \'alternity\': \'alternity\' is not about the same thing as \'not being in the media every day.\'', '["SentenceNo\': "1,\'sentenceContensant\': "The First Foreign Minister of Government, to appear on the 10th of May, was named as the first member of the nation to be represented.']
+
+Sample translations from column 'newsSubcategory':
+['Congress/ political party', 'Political General', 'Defense/ Foreign Affairs']
+
+Sample translations from column 'newsTitle':
+['\\"In the past, war, now it\'s ruined by debt" "This is the idea of a secretary-in-law', "I don't know if it's going to happen, but it's not going to happen.", '"In diplomacy, only the national good will come humbly."']
+
+Sample translations from column 'newsSubTitle':
+['', '', '']
+
+Sample translations from column 'newsContent':
+["The president of the United States, the president of the United States, stressed that every time the lack of experience outside the medical profession came out of the presidential election, “I am going to delegate authority to the experts in each field, ” the current elite of the government’s leadership, with the outline of the president's office, is marked by the fact that, in particular, the quantified official of the government, ‘ I am going to perform a stable executive service, ’ and ‘ I'm going to do a good job with the president of the economy, ‘ I'm going to do a good job, ’ and ‘ I'm going to do a good job in the former president's office. ’", 'The head of the eye has canceled the official schedule for 14 days. According to both the head of the body and the head of the body, who are expected to visit the fire department in Seoul at 10:30 a.m. this day, but the head of the body has not been informed that the president of the eye has been in trouble with the interior of the body.', 'A candidate for the new government to appear on May 10 as the first foreign minister to be launched by a member of the government, who, through the 13th visit, said: “It feels like a great mission to get a foreign minister\'s notice at a critical time of international political upheaval." “In diplomacy, ” he said,“ would be modest from the presumption of parliaments only, if he were only rich, ” he said,“ instead of being a foreign ambassador, he had come back from the US Foreign Secretary’s Foreign Secretary’s Foreign Secretary and Foreign Secretary’s Foreign Secretary, in his post- that he would be a member of the United States Foreign Secretary’s Foreign Secretary’s Foreign Affairs, a member of the Union’s Foreign Minister’s Foreign Minister’s Foreign Minister’s Foreign Minister’s Foreign Minister’s Foreign Secretary, a member, a member, a member of Parliament, a member of the United States, a member of the United States, a member of the United States, a member of the United States, a member of the United States foreign Secretary, a member of the Foreign Minister, a member of the United States, a member of the Foreign Minister, a member of the Foreign Secretary, a member of the Foreign Secretary of the Foreign Minister, a member of the Foreign Minister, a member of the Foreign Minister, a member of the Foreign Minister of the Foreign Minister of the Foreign Minister of the Foreign Minister of the Foreign Minister of the Foreign Secretary of the Foreign Secretary of the Foreign Secretary of the Foreign Secretary of the Foreign Secretary of the Foreign Secretary of the Foreign Secretary of the Foreign Secretary of the Foreign Secretary of the Foreign Secretary of the Foreign Secretary of the Foreign Secretary of the Foreign Secretary of the Union of State of the Union of the Union of the Union of the Foreign Secretary of the Union of the Union of the Union of the Union of the Union of the Union of the Union of the Union of the Union of the Union of the Union of the Union of the Union of the Union of the Union of the Union of the Union of the Union of the Union of the Union of the Union of the Union of the Union of the Union of the Union of the Union of the Union of the Union of the Union of the Union of the Union of the Union of the Union of the Union of the Union of the Union of the Union of the Union of the United States, in the United States, in the United States, from the United States, in the']
+[INFO] Total translated texts so far: 45000 (Current chunk translated: 5000)
+Partial results saved at /mount/nas/disk02/Data/Health/Mental_Health/BERT/real/translated_data_partial_v.csv (Chunk index: 9)
+
+[INFO] Translating chunk 11/70
+  - Translating column 'sentenceInfo'
+    > Translated 1000 rows in column 'sentenceInfo'
+  - Translating column 'newsSubcategory'
+    > Translated 1000 rows in column 'newsSubcategory'
+  - Translating column 'newsTitle'
+    > Translated 1000 rows in column 'newsTitle'
+  - Translating column 'newsSubTitle'
+    > Translated 1000 rows in column 'newsSubTitle'
+  - Translating column 'newsContent'
+    > Translated 1000 rows in column 'newsContent'
+
+Sample translations from column 'sentenceInfo':
+['["Existence No:\'entenceContensant\':\'I have been persuaded by the President\'s Prime Minister for 18 days to meet with the prosecutor\'s attorney general and say, \'Restruction must be for the people\'s sake,\' which means \'conservation must be \'not for the public\'.\'', '["ExtensenceNo\': 1,\'sentenceContensant\': \'existents of the eye are resuming the support of the post-election.\',\'sentenceSize\':', '["Extensence No: First and last year\'s president and First President\'s president\'s first rally are expected to take place on the 16th day.']
+
+Sample translations from column 'newsSubcategory':
+['Political General', 'Political General', 'Political General']
+
+Sample translations from column 'newsTitle':
+['"Presidents, you need self-reform... you need to leave your position and be for the people of the country."', '"The Great War" reflector dilution?', 'I don\'t know if it\'s going to be a "MB buys" with a "MB" charge.']
+
+Sample translations from column 'newsSubTitle':
+['', '', '']
+
+Sample translations from column 'newsContent':
+['The president of the House met with the attorney general for 18 days and told him that he had to be in the position of the public, and that he had to be in the position of the people, and that if he had been in charge of the president, he would have to be in the position of the Prime Minister and that he would have to be in the position of the people.', 'The support rate of the candidates for the candidates for the end of the presidential election has been rescinded.', 'In the 16th day of the president of the presidential presidential election and the first president of the presidential presidential election, it is noted that the president of the presidential presidential election will be on the table at the same time as the president of the president of the presidential election, as the president of the presidential election has argued, for his ‘ national integration ’ in the case of the candidates, the president of the former president of the country will be on the same side of the presidential election.']
+[INFO] Total translated texts so far: 50000 (Current chunk translated: 5000)
+
+[INFO] Translating chunk 12/70
+  - Translating column 'sentenceInfo'
+    > Translated 1000 rows in column 'sentenceInfo'
+  - Translating column 'newsSubcategory'
+    > Translated 1000 rows in column 'newsSubcategory'
+  - Translating column 'newsTitle'
+    > Translated 1000 rows in column 'newsTitle'
+  - Translating column 'newsSubTitle'
+    > Translated 1000 rows in column 'newsSubTitle'
+  - Translating column 'newsContent'
+    > Translated 1000 rows in column 'newsContent'
+
+Sample translations from column 'sentenceInfo':
+['["ExtensenceNo\': 1,\'sentenceContensant\':', '["Extensence No: One\'s History Consistententential\': The \'Sunsend\' Council of Ethics expressed concern about the senior party\' last year\': \'SentenceSize\':', '"This is a story written today," a medium that focuses on the world in general:\'sensenceSize\':']
+
+Sample translations from column 'newsSubcategory':
+['Society', 'Society', 'Society']
+
+Sample translations from column 'newsTitle':
+["I'm going to be a ship-selector at the KBS office, and I'm going to be an internal 'wieldy'.", '"Inconsequential confirmation and counterconsumption principles."', 'Expedition reports, during the time of shipwreck, imagine "waves."']
+
+Sample translations from column 'newsSubTitle':
+['Chosun Ilbo\'s union, waterwolves, KBS, and so on, worried that... "Organization should be changed"', 'Ethics, Deep Concern...', '[midier scene] Lee Gee-seok KBS Expedition Presser']
+
+Sample translations from column 'newsContent':
+['The last 60 years, the last 60th anniversary of the election, the last 20th anniversary of the election, the last 20th anniversary of the election, the last 20th, the last member of the crew, the last member of the crew, the last member, the last member of the crew, the last member of the crew, the last member of the crew, the last member of the crew, the last member of the crew, the last member of the crew, the last member of the crew, the last member of the crew, the last member of the crew, the last member of the crew, the last member of the crew, the last member of the crew, the last member of the crew, the last member of the crew, and the last member of the crew of the crew of the crew.', "The Sunsun Daily Ethics Committee expressed its concern about the last year's high-frequency party's illegal party, calling it a resounding affair.", 'This post is published in the Media Today, which focuses on the status of the media in general.']
+[INFO] Total translated texts so far: 55000 (Current chunk translated: 5000)
+
+[INFO] Translating chunk 13/70
+  - Translating column 'sentenceInfo'
+    > Translated 1000 rows in column 'sentenceInfo'
+  - Translating column 'newsSubcategory'
+    > Translated 1000 rows in column 'newsSubcategory'
+  - Translating column 'newsTitle'
+    > Translated 1000 rows in column 'newsTitle'
+  - Translating column 'newsSubTitle'
+    > Translated 1000 rows in column 'newsSubTitle'
+  - Translating column 'newsContent'
+    > Translated 1000 rows in column 'newsContent'
+
+Sample translations from column 'sentenceInfo':
+['["Extensence NO\': 1 \'SentenceContensant\': "The Bush of Busan has held a 2030-year-old international exhibition resolution convention at the World’Punion Conference Center in the afternoon: \'SensationSSize\' 61}, \'entenceNo\':', '["Sentence NO\':"1,\'sentenceContensant\': \'ExistenceContensant\': \'He was questioned for about 12 hours by Mr. Kim Manba, who\'s been in charge of the special privilege of the union\'S development project in South Korea\'.', '["Sentence No": 1 "Sentence Contenstant": "A women\'s great champion, the great champion\'s champion, in connection with the suspicion of \'Existence Specialist\' in the game market of the Second Sons. · Global Voices']
+
+Sample translations from column 'newsSubcategory':
+['Society, Nation, and South Korea', 'Social, Social, and Social General', 'Society, Accidents, and Accidents']
+
+Sample translations from column 'newsTitle':
+['2030 World Exposition Uniform Success resolution...\\ "Let\'s gather strength for it\\"', 'Kim Manba\\ "I\'ve been instigated by my son... and I\'ve never asked him to do it, but I\'ve got a diagnosis\\"', 'Chin Moon, Kim Seok, Five Billion Retirement Retirement Son?\\\'I don\'t think I\'m going to be a substitute."']
+
+Sample translations from column 'newsSubTitle':
+['All in attendance for the 27th day of Busan Harbor International Convention Center are determined to go to the World Exposition Insult.', "After 12 hours of investigation, there's no silence in the question.", '']
+
+Sample translations from column 'newsContent':
+["On the 27th day of the New Year's Eve, the World Council of the World's Fair of Universities held a resolution to win the bid for a 2030 World Fair. This event, which has been strictly observed by the government of the World Council of Nations, demonstrated the burning desire and determination of the 2030 World’s Fair to ensure that it must be held in the mountains, despite the current resumption of Corona19.", "The competition was recently accepted by Mr. Kim Manba, the president of the mountain estates, who was in favor of the honors of the Royal Cosmic Development Service in Saint Nam, South Korea, for about 12 hours. On the 27th day, Mr. Kim was questioned at Seoul's Mountain Police station, and the son of a member of the castle who worked at the oil plant had asked for five billion dollars on top of the mountain estate.", 'According to John F. Kim, a well-known composer, who is now reaching out for five billion dollars in the form of retirement money.']
+[INFO] Total translated texts so far: 60000 (Current chunk translated: 5000)
+
+[INFO] Translating chunk 14/70
+  - Translating column 'sentenceInfo'
+    > Translated 1000 rows in column 'sentenceInfo'
+  - Translating column 'newsSubcategory'
+    > Translated 1000 rows in column 'newsSubcategory'
+  - Translating column 'newsTitle'
+    > Translated 1000 rows in column 'newsTitle'
+  - Translating column 'newsSubTitle'
+    > Translated 1000 rows in column 'newsSubTitle'
+  - Translating column 'newsContent'
+    > Translated 1000 rows in column 'newsContent'
+
+Sample translations from column 'sentenceInfo':
+['["SentenceNo\': 1,\'sentenceContensant\':\'reports of credit went down last year.\' \'SentenceSize\': 28},\'sentenceno\': "\'six years\'; "Only six years\'.\' Financial Directors announced such things as \'2018\' and \'30s\'.', '["SentenceNo\': "A new financial investment": "a new financial investment to raise a new investment into an initial investment bank by a new banker. "\'SentenceSize\' 48":', '["ExtensenceNo\': "1,\'sentence Conservation\': "\'DLF\' has been announced by the financial commission\' 14 days\' management and focus only on reforming the system: \'DLF\'.\';\'sentenceSize\':']
+
+Sample translations from column 'newsSubcategory':
+['Bank', 'Bank', 'Bank']
+
+Sample translations from column 'newsTitle':
+['Last year, 44 credit ratings went down in 6 years.', 'New finance, new financial investment, super-IB.', 'The financial table, DLF comprehensive resolution announcement...\\ "I\'m going to issue a management sanction after I\'m going to review my withdrawal check\\"']
+
+Sample translations from column 'newsSubTitle':
+['', '', '']
+
+Sample translations from column 'newsContent':
+["Last year, credit ratings went down more than companies. In just 6 years, financial supervisors announced their '2018 credit assessments and oversights' 30 days, including the following: last year's credit ratings increased by 44, while credit ratings dropped by 8.178.", 'According to the eight-day financial sector, the newly funded sector of the board is determined to create 100 percent new investment deficits for its board of directors.', 'The financial commission has announced a comprehensive improvement of its investment, with 14 day management sanctions and a focus on reforming the system. The financial status has been described as "decisived post-consumption measures in the treasury" and "conserving whether or not the financial sectors will be managed", after the sanction has been taken. This day, the financial commission has decided to increase the risk and improve its investment, which has recently resulted in massive losses.']
+[INFO] Total translated texts so far: 65000 (Current chunk translated: 5000)
+
+[INFO] Translating chunk 15/70
+  - Translating column 'sentenceInfo'
+    > Translated 1000 rows in column 'sentenceInfo'
+  - Translating column 'newsSubcategory'
+    > Translated 1000 rows in column 'newsSubcategory'
+  - Translating column 'newsTitle'
+    > Translated 1000 rows in column 'newsTitle'
+  - Translating column 'newsSubTitle'
+    > Translated 1000 rows in column 'newsSubTitle'
+  - Translating column 'newsContent'
+    > Translated 1000 rows in column 'newsContent'
+
+Sample translations from column 'sentenceInfo':
+['["Extensence No: First,\'sentenceContensant\': \'Blaxta sicco, rapper Palo Alto is broadcast at 11 o\'clock at 26 o\'clock at night.\',\'sensesno\' 66},\'sentententententment\':', '["Extensivesno\': 1,\'sentenceContensant\': "Absorption:\' 6 hours later, the shock\'s end of the summer, while\'students\' are out of sight."', '["ExtensenceNo\':\'entenceContensant\':\',\'entenceCentence :\'Enact\'s got an issue when an actor\'s comet pops up to expose his underwear.\' \'SentenceSize\':\' and\'sentenceNo\':\'" Last 12 p.m.']
+
+Sample translations from column 'newsSubcategory':
+["I'm talking about entertainment.", "I'm talking about entertainment.", "I'm talking about entertainment."]
+
+Sample translations from column 'newsTitle':
+['The Dark Panda Hyrin/Palo Al-Colabo Memorial Live Expected UP.', 'Six hours later, the shock.', 'An actor, a comet, a tae kwon, pops his pants... red?']
+
+Sample translations from column 'newsSubTitle':
+['', '', '']
+
+Sample translations from column 'newsContent':
+['A special live was displayed on the Saber Vip, which is broadcast at 11 p.m. on 26 p.m. by the rapper Falro Alto. Today\'s sound site has been released a project called "DARK PANDA" by Palo Alto Colavo.', "Six hours later, while the shock's approaching the end of the table, the mildest food poisoning is due to the toxins in the hand. The food poisoning occurs after six to eight hours of vomiting.", "A comet shows a demonstration and then pops into the face of the underwear. The MBC entertainment program 'The Golden Horse Radio', which was broadcast the past 12 days in the afternoon, has been decorated with a special'man' specialization."]
+[INFO] Total translated texts so far: 70000 (Current chunk translated: 5000)
+Partial results saved at /mount/nas/disk02/Data/Health/Mental_Health/BERT/real/translated_data_partial_v.csv (Chunk index: 14)
+
+[INFO] Translating chunk 16/70
+  - Translating column 'sentenceInfo'
+    > Translated 1000 rows in column 'sentenceInfo'
+  - Translating column 'newsSubcategory'
+    > Translated 1000 rows in column 'newsSubcategory'
+  - Translating column 'newsTitle'
+    > Translated 1000 rows in column 'newsTitle'
+  - Translating column 'newsSubTitle'
+    > Translated 1000 rows in column 'newsSubTitle'
+  - Translating column 'newsContent'
+    > Translated 1000 rows in column 'newsContent'
+
+Sample translations from column 'sentenceInfo':
+['["Existence No:"1, \'SentenceContensant\': "The Conneral Pipeline, which was attacked by a cyberspace company in the United States, has been identified as paying $5 million to the Eastern European hackers to solve the problem.', 'The South China Morning Post (SMP) reported last 23 days.', '["Sentence No:"SentenceContent\': One\'s been fired in Pakistan for the death of a security agent because of a doctor\'s actions.\' \'SentenceSize\':']
+
+Sample translations from column 'newsSubcategory':
+['U.S.A. Canada', 'U.S.A. Canada', 'Asia Shoju']
+
+Sample translations from column 'newsTitle':
+['- Bloomberg.', '"Wat the space station\'s robotic arm, we\'re going to attack the satellite."', "The patient died after the back surgery, and it turns out that the hospital's on guard."]
+
+Sample translations from column 'newsSubTitle':
+['', 'Commander Dickens Wong\\ "could be used to capture other countries, satellites\\\\" Military critic Song Jingping\\\\"] "Stream threats and threats to get more budgets\\"', 'Pakistan often pays medical attention directly to the medical staff.']
+
+Sample translations from column 'newsContent':
+['When the U.S. company \'Counical Pipeline\' (Translator’) discovered that it was paying $5 million to the Eastern European hackers to solve the problem, the Bloomberg News reported on the 13th day that it was not planning to pay off two sources of information "\\ local time" and said that some of the media had already revealed that it was not intended to pay the hackers to do so, and that the system’s work was under way to restore the security of all its users.', "South China Morning Post reported last 23 days that China has been able to catch up with 10-millimeter-sized robots that have been installed on the earth's orbits during the past 29 days.", 'An 80-year-old patient in a public hospital in eastern Lahore, Pakistan, who was suddenly killed by a security agent in two weeks, reports: "The security agent who was fired in Pakistan is now in danger of having to pay medical attention to patients who were suffering from a hospital" because of the fact that the patient was suffering from a real illness and was now suffering from a serious illness."']
+[INFO] Total translated texts so far: 75000 (Current chunk translated: 5000)
+
+[INFO] Translating chunk 17/70
+  - Translating column 'sentenceInfo'
+    > Translated 1000 rows in column 'sentenceInfo'
+  - Translating column 'newsSubcategory'
+    > Translated 1000 rows in column 'newsSubcategory'
+  - Translating column 'newsTitle'
+    > Translated 1000 rows in column 'newsTitle'
